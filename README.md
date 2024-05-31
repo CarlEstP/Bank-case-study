@@ -1,7 +1,9 @@
-RETO - CAMPAÑA DE MARKETING DE UN BANCO PORTUGUÉS
+**RETO - CAMPAÑA DE MARKETING DE UN BANCO PORTUGUÉS**
+
 Basado en el reto guiado impartido de las últimas formaciones académicas en thePower D&A
 
-1. Stack Data & Analyst
+
+**Stack Data & Analyst**
 
 - Python
 - Numpy
@@ -10,8 +12,10 @@ Basado en el reto guiado impartido de las últimas formaciones académicas en th
 - Seaborn
 - Plotly
 
-2. Propósito del reto
-   El propósito de este reto es poner en práctica los conocimientos de:
+
+**Propósito del reto**
+
+El propósito de este reto es poner en práctica los conocimientos de:
 
 - EDA: análisis exploratorio de los datos
 - Limpieza de datos
@@ -19,8 +23,8 @@ Basado en el reto guiado impartido de las últimas formaciones académicas en th
 - Visualización de datos
 - Justificar las conclusiones del caso propuesto
 
-3. Contexto del caso, finalidad y datasets
-   Se proporciona unas fuentes de datos extraídas de unas campañas de _marketing_ de una institución bancaria portuguesa. Las campañas de marketing se basaron en llamadas telefónicas. A menudo, se requería más de un contacto con el mismo cliente para determinar si el producto (depósito a plazo bancario) sería suscrito o no.
+Contexto del caso, finalidad y datasets
+Se proporciona unas fuentes de datos extraídas de unas campañas de _marketing_ de una institución bancaria portuguesa. Las campañas de marketing se basaron en llamadas telefónicas. A menudo, se requería más de un contacto con el mismo cliente para determinar si el producto (depósito a plazo bancario) sería suscrito o no.
 
 Tras analizar los datasets, habría que ser capaz de responder: ¿ Ha sido esta campaña eficaz para ganar suscripciones en productos finacieros de la entidad bancaia ?
 
