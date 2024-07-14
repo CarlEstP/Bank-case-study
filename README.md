@@ -1,3 +1,7 @@
+## CHALLENGE - MARKETING CAMPAIGN OF A PORTUGUESE BANK
+
+Based on the guided challenge conducted in the latest academic sessions at thePower D&A
+
 ## 1. Stack Data & Analyst
 
 - Python
