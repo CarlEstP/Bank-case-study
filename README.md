@@ -1,9 +1,4 @@
-**RETO - CAMPAÑA DE MARKETING DE UN BANCO PORTUGUÉS**
-
-Basado en el reto guiado impartido de las últimas formaciones académicas en thePower D&A
-
-
-**Stack Data & Analyst**
+## 1. Stack Data & Analyst
 
 - Python
 - Numpy
@@ -12,56 +7,60 @@ Basado en el reto guiado impartido de las últimas formaciones académicas en th
 - Seaborn
 - Plotly
 
+## 2. Purpose of the Challenge
 
-**Propósito del reto**
+The purpose of this challenge is to put into practice the knowledge of:
 
-El propósito de este reto es poner en práctica los conocimientos de:
+- Exploratory Data Analysis (EDA)
+- Data cleaning
+- Handling missing data
+- Data visualization
+- Justifying conclusions based on the proposed case
 
-- EDA: análisis exploratorio de los datos
-- Limpieza de datos
-- Gestión de nulos
-- Visualización de datos
-- Justificar las conclusiones del caso propuesto
+## 3. Context of the Case, Purpose, and Datasets
 
-Contexto del caso, finalidad y datasets
-Se proporciona unas fuentes de datos extraídas de unas campañas de _marketing_ de una institución bancaria portuguesa. Las campañas de marketing se basaron en llamadas telefónicas. A menudo, se requería más de un contacto con el mismo cliente para determinar si el producto (depósito a plazo bancario) sería suscrito o no.
+We are provided with data extracted from marketing campaigns of a Portuguese banking institution. These campaigns were based on telephone calls, often requiring multiple contacts with the same client to determine if the term deposit product would be subscribed or not.
 
-Tras analizar los datasets, habría que ser capaz de responder: ¿ Ha sido esta campaña eficaz para ganar suscripciones en productos finacieros de la entidad bancaia ?
+After analyzing the datasets, the goal is to answer: Has this campaign been effective in gaining subscriptions to financial products from the banking institution?
 
-Para ello se nos proporcionan dos datasets.
+Two datasets are provided:
 
-Las colummas que tenemos en el primer _dataset_ ('bank-additional.csv') son:
+### First Dataset ('bank-additional.csv')
 
-- **age**: La edad del cliente.
-- **job**: La ocupación o profesión del cliente.
-- **marital**: El estado civil del cliente.
-- **education**: El nivel educativo del cliente.
-- **default**: Indica si el cliente tiene algún historial de incumplimiento de pagos (1: Sí, 0: No).
-- **housing**: Indica si el cliente tiene un préstamo hipotecario (1: Sí, 0: No).
-- **loan**: Indica si el cliente tiene algún otro tipo de préstamo (1: Sí, 0: No).
-- **contact**: El método de contacto utilizado para comunicarse con el cliente.
-- **duration**: La duración en segundos de la última interacción con el cliente.
-- **campaign**: El número de contactos realizados durante esta campaña para este cliente.
-- **pdays**: Número de días que han pasado desde la última vez que se contactó con el cliente durante esta campaña.
-- **previous**: Número de veces que se ha contactado con el cliente antes de esta campaña.
-- **poutcome**: Resultado de la campaña de marketing anterior.
-- **emp.var.rate**: La tasa de variación del empleo.
-- **cons.price.idx**: El índice de precios al consumidor.
-- **cons.conf.idx**: El índice de confianza del consumidor.
-- **euribor3m**: La tasa de interés de referencia a tres meses.
-- **nr.employed**: El número de empleados.
-- **y**: Indica si el cliente ha suscrito un producto o servicio (Sí/No).
-- **date**: La fecha en la que se realizó la interacción con el cliente.
-- **contact_month**: Mes en el que se realizó la interacción con el cliente durante la campaña de marketing.
-- **contact_year**: Año en el que se realizó la interacción con el cliente durante la campaña de marketing.
-- **id\_**: Un identificador único para cada registro en el dataset.
+Columns include:
 
-Además, se proporciona un excel que nos da información sobre las características demográficas y comportamiento de compra de los clientes del banco. Este excel consta de tres hojas de trabajo diferentes, y en cada una de ellas tenemos los clientes que entraron en el banco en diferentes años.
-Las colummas que tenemos en el segundo _dataset_ ('customer-details.xlsx') son:
+- **age**: Client's age.
+- **job**: Client's occupation or profession.
+- **marital**: Client's marital status.
+- **education**: Client's educational level.
+- **default**: Indicates if the client has a history of credit default (1: Yes, 0: No).
+- **housing**: Indicates if the client has a housing loan (1: Yes, 0: No).
+- **loan**: Indicates if the client has any other loan (1: Yes, 0: No).
+- **contact**: Method of contact used to communicate with the client.
+- **duration**: Duration in seconds of the last interaction with the client.
+- **campaign**: Number of contacts made during this campaign for this client.
+- **pdays**: Number of days that have passed since the last contact with the client during this campaign.
+- **previous**: Number of times the client was contacted before this campaign.
+- **poutcome**: Outcome of the previous marketing campaign.
+- **emp.var.rate**: Employment variation rate.
+- **cons.price.idx**: Consumer price index.
+- **cons.conf.idx**: Consumer confidence index.
+- **euribor3m**: Three-month Euribor interest rate.
+- **nr.employed**: Number of employees.
+- **y**: Indicates if the client has subscribed to a product or service (Yes/No).
+- **date**: Date of the interaction with the client.
+- **contact_month**: Month of the interaction with the client during the marketing campaign.
+- **contact_year**: Year of the interaction with the client during the marketing campaign.
+- **id\_**: Unique identifier for each record in the dataset.
 
-- **Income**: Representa el ingreso anual del cliente en términos monetarios.
-- **Kidhome**: Indica el número de niños en el hogar del cliente.
-- **Teenhome**: Indica el número de adolescentes en el hogar del cliente.
-- **Dt_Customer**: Representa la fecha en que el cliente se convirtió en cliente de la empresa.
-- **NumWebVisitsMonth**: Indica la cantidad de visitas mensuales del cliente al sitio web de la empresa.
-- **ID**: Identificador único del cliente.
+### Second Dataset ('customer-details.xlsx')
+
+This Excel provides information on demographic characteristics and buying behavior of bank clients. It consists of three different worksheets, each containing clients who entered the bank in different years.
+Columns include:
+
+- **Income**: Annual income of the client in monetary terms.
+- **Kidhome**: Number of children in the client's household.
+- **Teenhome**: Number of teenagers in the client's household.
+- **Dt_Customer**: Date when the client became a customer of the company.
+- **NumWebVisitsMonth**: Number of monthly visits by the client to the company's website.
+- **ID**: Unique identifier of the client.
